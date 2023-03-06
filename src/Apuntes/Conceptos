@@ -3,10 +3,16 @@ TEMA 6: Recursividad Y Algoritmia Avanzada
 1- Control y manejo de excepciones
 
 A. Conceptos
-- Como concepto principal vemos en sí las excepciones que son anomálias en nuestro código que pueden ser o no errores como tal, pero que harán que nuestro código falle.
+- Como concepto principal vemos en sí las excepciones que son anomalías en nuestro código que pueden ser o no errores como tal, pero que harán que nuestro código falle.
+
+- ¿Qué es una excepción en java? --> Las excepciones en java se comprenden como el evento que se produce al ejecutar nuestro código que interrumpe el flujo normal de este.
+
 - Miembros: son campos y métodos
+
 - Checked: excepciones donde el código acabará en error pero no por causa de una mala construcción de nuestro código
+
 - Unchecked: excepciones donde el fallo es principalmente en la construcción de nuestro código, es decir, es fallo nuestro al hacer el código.
+
 
 Enlaces:
 -- Codigo clase excepción
