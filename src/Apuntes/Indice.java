@@ -1,3 +1,5 @@
+package Apuntes;
+
 public class Indice {
     //1. Control y manejo de excepciones
     //  a. Concepto

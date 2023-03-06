@@ -1,3 +1,5 @@
+package Ejemplo;
+
 public class ManejoDeExcepciones {
     public static void main(String[] args) {
         System.out.println("Comienzo programa división");

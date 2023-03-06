@@ -1,4 +1,4 @@
-//Pregunta wooclap si podría yo hacer un código que lance un null pointerException
+package Ejemplo;//Pregunta wooclap si podría yo hacer un código que lance un null pointerException
 //06-03-2023
 
 public class CodigoNullPointer {
