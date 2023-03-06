@@ -9,11 +9,13 @@ public class Indice {
     //    iii. Lanzamiento
     //    iv. Excepciones de Usuario
     //  e. Buenas prácticas
+    //--------------------------------------------------------------------------------------------
     //2. Recursividad
     //  a. Concepto
     //  b. Utilización
     //  c. Tipos de Recursividad
     //  d. Ventajas e inconvenientes
+    //---------------------------------------------------------------------------------------------
     //3. Complejidad algorítimica
     //4. Algoritmia
     //  a. Algoritmo voraz
