@@ -1,6 +1,5 @@
 package Ejercicios;
 
-import java.io.IOError;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
@@ -19,13 +18,13 @@ public class Ejercicio1 {
 
         Integer nuevoNumero = 6;
         try {
-            añadirNumero(lista, nuevoNumero);
+            addNumber(lista, nuevoNumero);
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
 
     }
-    static void añadirNumero(List <Integer> lista, Integer nuevoNumero) throws IOException {
+    static void addNumber(List <Integer> lista, Integer nuevoNumero) throws IOException {
         if (lista.contains(nuevoNumero)) {
             throw new IOException("La lista ya contiene el número");
         } else {
