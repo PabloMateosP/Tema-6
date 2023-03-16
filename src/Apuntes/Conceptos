@@ -13,6 +13,10 @@ A. Conceptos
 
 - Unchecked: excepciones donde el fallo es principalmente en la construcción de nuestro código, es decir, es fallo nuestro al hacer el código.
 
+- Patrones de diseño (Desgin Patterns) es una de las cosas más importantes de la programación.
+-- -- Patrón estrategia (Strategic Patterns)
+
+Algoritmo voraz o de tipo Greedy que busca la primera solución.
 
 Enlaces:
 -- Codigo clase excepción
