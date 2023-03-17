@@ -1,6 +1,4 @@
-package Ejercicios.algoritmoVoraz;
-
-import java.util.Arrays;
+package Ejercicios.Algoritmia.algoritmoVoraz;
 
 public class ProblemaCambioMoneda extends EsquemaAlgoritmoVoraz{
 

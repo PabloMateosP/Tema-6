@@ -1,4 +1,4 @@
-package Ejercicios.algoritmoVoraz;
+package Ejercicios.Algoritmia.algoritmoVoraz;
 
 
 public abstract class EsquemaAlgoritmoVoraz {
