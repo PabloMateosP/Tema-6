@@ -61,6 +61,8 @@ public class Ejercicio6_2 {
             return sucesionFibonacci(n - 1) + sucesionFibonacci(n - 2);
         }
     }
+    //Crea un método que calcule el máximo común divisor (MCD) de dos números enteros
+    //(utilizando la división euclídea).
     public static int MCD (int a, int b){
         if (a == 0 || b == 0){
             return b;
