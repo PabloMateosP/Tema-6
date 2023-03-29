@@ -1,0 +1,18 @@
+Analiza el algoritmo del ejercicio anterior y calcula cuál sería su complejidad utilizando la
+notación Big-O. Debes indicar claramente el procedimiento que has utilizado y no sólo la
+solución.
+
+Para la solución de las torres de hannoi tenemos un algoritmo complejo con el cual a poco número de discos menos recursión tendrá que dar el código,
+es decir, si nuestras torres tienen solo 3 discos será mucho más rápido que teniendo diez ya que nuestro código tendrá que repetirse
+una menor cantidad de veces.
+
+
+¿Serías capaz de resolver el juego de las torres de Hanoi mediante iteración? ¿cual tiene
+una complejidad de orden menor? ¿Cuál de los dos algoritmos piensas que es más
+sencillo? ¿Cuál de las implementaciones te parece más adecuada y por qué?
+
+Si se podría hacer mediante una pila para guardar los discos así como las posiciones que tendrán estos.
+Moviendo los discos (Sus posiciones) a las deseadas durante cada iteración.
+El algoritmo recursivo es más simple en términos de sencillez, además de que la solución es más natural y por lo tanto más fácil de entender.
+
+En cuanto a mi parecer creo que la recursividad es más facil de entender, de explicar y da hacer, además de que acortamos la cantidad de código.
