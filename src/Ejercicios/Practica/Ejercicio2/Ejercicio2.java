@@ -12,14 +12,14 @@ public class Ejercicio2{
         sc.close();
         resolverTorres(discos, "A", "C", "B");
     }
-    public static void resolverTorres(int n, String salida, String meta, String comodin) {
+    public static void resolverTorres(int n, String inicio, String fin, String medio) {
         if (n == 1) {
-            System.out.println("Mover disco 1 desde " + salida + " hasta " + meta);
-            return;
+            System.out.println("Mover disco 1 desde " + inicio + " hasta " + fin);
+        } else {
+            resolverTorres(n - 1, inicio, medio, fin);
+            System.out.println("Mover disco " + n + " desde " + inicio + " hasta " + fin);
+            resolverTorres(n - 1, medio, fin, inicio);
         }
-        resolverTorres(n - 1, salida, comodin, meta);
-        System.out.println("Mover disco " + n + " desde " + salida + " hasta " + meta);
-        resolverTorres(n - 1, comodin, meta, salida);
     }
 }
 
