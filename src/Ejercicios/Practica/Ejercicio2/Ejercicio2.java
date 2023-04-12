@@ -21,5 +21,8 @@ public class Ejercicio2{
             resolverTorres(n - 1, medio, fin, inicio);
         }
     }
+    //Con la recursividad del else lo que hacemos en nuestro código es cambiar las posiciones de las torres
+    //para así ir intercambiando los discos de una torre a otra , cambiando el inicio por el fin y que cada vez que nuestra
+    //n llegue a 1 entremos en el if.
 }
 
