@@ -36,9 +36,7 @@ public class ProblemaCambioMoneda extends EsquemaAlgoritmoVoraz{
         candidato = cambio / monedas[etapa];
 
         //Siendo así si nuestro número es 30 y la monedas[etapa] es 10 nuestro cambio será 3.
-
     }
-
     @Override
     protected void inicializa() {
         solucion = new int[monedas.length];
